@@ -1,54 +1,31 @@
 <div align="center">
-  <svg viewBox="0 0 400 300" width="400" height="300" style="max-width: 100%; margin-bottom: 20px;">
-    <!-- Daisy Flower -->
-    <!-- Petals (Yellow) -->
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(0 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(45 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(90 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(135 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(180 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(225 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(270 200 120)"/>
-    <ellipse cx="200" cy="80" rx="15" ry="35" fill="#FFD700" transform="rotate(315 200 120)"/>
-    
-    <!-- Center (Black) -->
-    <circle cx="200" cy="120" r="18" fill="#000000"/>
-    
-    <!-- Stem (Green) -->
-    <path d="M 200 138 Q 185 180 180 240" stroke="#2D5016" stroke-width="4" fill="none" stroke-linecap="round"/>
-    <path d="M 200 138 Q 215 180 220 240" stroke="#2D5016" stroke-width="4" fill="none" stroke-linecap="round"/>
-    
-    <!-- Leaves -->
-    <ellipse cx="165" cy="180" rx="12" ry="30" fill="#2D5016" transform="rotate(-35 165 180)"/>
-    <ellipse cx="235" cy="190" rx="12" ry="30" fill="#2D5016" transform="rotate(35 235 190)"/>
-    
-    <!-- Decorative Elements (Pink accents) -->
-    <circle cx="100" cy="60" r="8" fill="#FF69B4" opacity="0.7"/>
-    <circle cx="300" cy="90" r="6" fill="#FF69B4" opacity="0.6"/>
-    <circle cx="320" cy="200" r="7" fill="#FF69B4" opacity="0.5"/>
-    <circle cx="80" cy="230" r="5" fill="#FFD700" opacity="0.6"/>
+  <!-- Animated Dot -->
+  <div style="font-size: 60px; animation: pulse 1.5s ease-in-out infinite; margin-bottom: 10px;">●</div>
+  
+  <!-- SVG Daisy Flower -->
+  <svg viewBox="0 0 200 220" width="120" height="140" style="margin: 10px 0;">
+    <!-- Petals -->
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(0 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(45 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(90 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(135 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(180 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(225 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(270 100 100)"/>
+    <ellipse cx="100" cy="40" rx="12" ry="32" fill="#FFFFFF" stroke="#000000" stroke-width="1.5" transform="rotate(315 100 100)"/>
+    <!-- Center -->
+    <circle cx="100" cy="100" r="16" fill="#000000"/>
+    <!-- Stem -->
+    <line x1="100" y1="120" x2="100" y2="200" stroke="#000000" stroke-width="2.5"/>
   </svg>
-
-  <h1 style="color: #000000; font-size: 2.5em; margin: 10px 0; font-weight: 900; letter-spacing: 2px;">
-    Hi, I'm <span style="color: #FF69B4;">Dilasha</span> 👋
-  </h1>
   
-  <h2 style="color: #FFD700; font-size: 1.8em; margin: 5px 0; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">
-    Welcome to my GitHub Profile!
-  </h2>
+  <!-- Typewriter Text -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Courier+Prime&weight=700&size=35&duration=3000&color=000000&center=true&vCenter=true&width=450&height=70&lines=Hi+I'm+Dilasha+👋;Welcome+to+my+GitHub!" alt="Typewriter effect"/>
   
-  <div style="
-    background: linear-gradient(135deg, #FFD700 0%, #FF69B4 100%);
-    padding: 15px 30px;
-    border-radius: 25px;
-    display: inline-block;
-    margin-top: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  ">
-    <p style="color: #000000; font-weight: 600; margin: 0; font-size: 1.1em;">
-      ✨ Creative Developer | Passionate Coder | Always Learning ✨
-    </p>
-  </div>
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+  </style>
 </div>
-
----
